@@ -27,6 +27,8 @@ for num in range(1,3009,1):
       a = 1
 
     if a == 0:  
+      title = title.replace(' ','_')
+      #print(title)
       if ids <= 1000:
         url = "http://dl.wenku8.com/txtbig5/0/"+num+".txt"
         location = "/content/"+num
